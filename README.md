@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-const anmol = {
+const Ahmad = {
     pronouns: "He" | "Him",
     code: ["Javascript", "React.js", "Html", "Css"],
     askMeAbout: ["web dev", "Frontend"],
