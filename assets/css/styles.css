@@ -417,10 +417,11 @@ textarea{
 
 /*==================== ABOUT ====================*/
 .about__img {
-    width: 200px;
+    width: 409px;
     border-radius: .5rem;
     justify-self: center;
     align-items: center;
+    margin-right: -100px;
 }
 
 .about__description {
@@ -836,6 +837,7 @@ textarea{
 .project__img {
     width: 232px;
     justify-self: center;
+    transform: rotateY(180deg);
 }
 
 
