@@ -113,6 +113,15 @@ body.dark-theme {
 html {
     -webkit-scroll-behavior: smooth;
     scroll-behavior: smooth;
+ 
+}
+
+body {
+    margin: 0 0 var(--header-height) 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
     overflow: hidden;
     -moz-overflow: hidden;
     -ms-overflow: hidden;
@@ -123,14 +132,6 @@ html {
     -ms-overflow-y: scroll;
     -o-overflow-y: scroll;
     -webkit-overflow-y: scroll;
-}
-
-body {
-    margin: 0 0 var(--header-height) 0;
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    background-color: var(--body-color);
-    color: var(--text-color);
 }
 
 h1,
