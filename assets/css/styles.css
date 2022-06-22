@@ -111,9 +111,18 @@ body.dark-theme {
 }
 
 html {
+    -webkit-scroll-behavior: smooth;
     scroll-behavior: smooth;
     overflow: hidden;
+    -moz-overflow: hidden;
+    -ms-overflow: hidden;
+    -o-overflow: hidden;
+    -webkit-overflow: hidden;
     overflow-y: scroll;
+    -moz-overflow-y: scroll;
+    -ms-overflow-y: scroll;
+    -o-overflow-y: scroll;
+    -webkit-overflow-y: scroll;
 }
 
 body {
